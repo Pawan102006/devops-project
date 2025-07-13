@@ -3,4 +3,5 @@ app = Flask (__name__)
 @app.route("/info")
 def flaskinfo():
     return "this is a flask file made in app.py "
-app.run()
+if __name__=="__main__":
+    app.run(host="0.0.0.0" , port="5000")
