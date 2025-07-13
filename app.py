@@ -1,6 +1,6 @@
 from flask import Flask
 app = Flask (__name__)
-@app.route("/info")
+@app.route("/")
 def flaskinfo():
     return "this is a flask file made in app.py "
 if __name__=="__main__":
